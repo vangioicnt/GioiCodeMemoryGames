@@ -5,16 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include layout="@layout/layout_menu" />
+    <include
+        android:id="@+id/layoutMenu"
+        layout="@layout/layout_menu" />
 
-    <include layout="@layout/layout_play" />
+    <include
+        android:id="@+id/layoutPlay"
+        layout="@layout/layout_play" />
 
-    <include layout="@layout/popup_completed" />
+    <include
+        android:id="@+id/popupCompleted"
+        layout="@layout/popup_completed" />
 
-    <include layout="@layout/popup_game_over" />
+    <include
+        android:id="@+id/popupGameOver"
+        layout="@layout/popup_game_over" />
 
-    <include layout="@layout/popup_pause" />
+    <include
+        android:id="@+id/popupPause"
+        layout="@layout/popup_pause" />
 
-    <include layout="@layout/popup_win" />
+    <include
+        android:id="@+id/popupWin"
+        layout="@layout/popup_win" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
